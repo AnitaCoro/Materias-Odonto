@@ -31,17 +31,19 @@
 <body>
   <h1>Malla Curricular Interactiva</h1>
 
-  <h2>1º Año</h2>
+  <h2>1º Cuatrimestre</h2>
   <div class="materia">Anatomía I</div>
-  <div class="materia">Química General</div>
-  <div class="materia">Física Biomédica</div>
-  <div class="materia">Odontología Preventiva</div>
+  <div class="materia">Biologia General</div>
+  <div class="materia">Biofisica</div>
+  <div class="materia">OPS</div>
 
-  <h2>2º Año</h2>
-  <div class="materia">Biología Celular</div>
-  <div class="materia">Histología</div>
-  <div class="materia">Microbiología</div>
-
+ <h2>2º Cuatrimestre</h2>
+  <div class="materia">Anatomía II</div>
+  <div class="materia">Biologia General II</div>
+  <div class="materia">Biofisica II</div>
+  <div class="materia">OPS</div>
+  <div class="materia">Histologia y Embriologia I</div>
+  
   <script>
     document.querySelectorAll('.materia').forEach(materia => {
       materia.addEventListener('click', () => {
